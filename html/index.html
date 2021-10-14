@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sebbes webshop</title>
+    <script src="https://kit.fontawesome.com/660a6129b0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Open+Sans&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/base.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/flex.css" />
+    <link rel="stylesheet" href="../css/mediaqueries.css" />
+  </head>
+
+  <body>
+    <header class="d-flex justify-content-between align-items-end bg-dark p-2 text-white mb-4">
+        <div class=" mx-6 ">
+        
+            <!-- Left side of the bar --> 
+        <form>
+            <select class="bg-dark text-white p-4 shadow-lg rounded-corners" name="names" id="name-select">
+                  <!-- Not visible yet-->
+                  <i class="fas fa-user"></i> 
+              <option value= "Mr Blue">Mr Blue</option>
+              <option value="Mrs Yellow">Mrs Yellow</option>
+              <option value="Mr Green">Mr Green</option>
+              <option value="Mrs Pink">Mrs Pink</option>
+              <option value="Mr Red">Mr Red</option>
+            </select>
+          </form>
+        </div>
+        
+        <!-- Middle of the bar -->
+        <div class="d-flex justify-content-center align-items-center">
+            <div>
+                <i class="fas fa-phone mr-2"> </i>
+                <a href="#" class="text-decoration-none text-white mr-6 ">55 555 5555 </a>
+                </div>
+                
+            <div>
+                <i class="fas fa-envelope mr-2"></i>
+                <a href="mailto:bassepersson@hotmail.com " class="text-decoration-none text-white">sebbeswebshop@shop.se</a>
+            </div> 
+        </div> 
+        
+        <!-- Right side of the bar -->
+        <div class="d-flex justify-content-center align-items-center mr-6">
+            <div class=" bg-facebook rounded-corners mr-2">
+                <a href="#" class="text-white">
+                <i class="fab fa-facebook-f p-2 text-size-md"></i>
+                </a>
+            </div>
+        
+            <div class=" bg-white rounded-corners mr-2">
+                <a href="#" class="text-twitter">
+                <i class="fab fa-twitter p-2 text-size-"></i>
+                </a>
+            </div>
+        
+            <div class="d-flex bg-white rounded-corners mr-2">
+                <a  href="#" class="">
+                <i class="fab fa-instagram p-2"></i>
+                </a>
+            </div>
+            
+            <div class=" bg-white rounded-corners bg-stop mr-2">
+            <a href="#" class="text-white">
+            <i class="fab fa-pinterest-p p-2"></i>
+            </a>
+            </div>
+    
+        </div>
+    </header>
+
+    <!-- Search header -->
+    <section class="d-flex justify-content-between align-items-center ml-8 mt-8">
+    
+    <!-- left side of the search header-->
+        <div class="d-flex justify-content-between align-items-center">
+        <div>
+            <img src="../images/logo/logo.png" class="logo-width logo-height" alt="">
+        </div>
+
+        
+        <form class="d-flex ml-6">
+            <div class="">
+            <button type="submit"><i class="fas fa-search"></i></button>
+          
+            <input type="text" placeholder="Search for product">
+        </div>
+       
+        
+        </form>
+
+        </div>
+ 
+
+
+    
+
+    <!-- Right side of the bar -->
+    <!-- Do the 3 icon as a row-->
+        <div class="d-flex justify-content-between align-items-center mr-6">
+            
+            <!-- Heart symbole -->
+           <div class="d-flex flex-column justify-content-center align-items-center">
+                <a href="#" class="text-decoration-none position-relative">
+                    <div class="">
+                        <i class="fas fa-heart text-size-xl text-dark"></i>
+                    </div>
+                    <div class="">
+                        <span class="position-absoulut bg-success circle text-white border-small-white text-size-xxs icon-badge shadow-sm">3</span>
+                    </div>
+                </a>
+                <div class="d-flex text-uppercase justify-content text-size-xxs">
+                    Favs
+                </div> 
+            </div>
+
+           <!-- Cart symbole -->
+           
+           <div class="d-flex flex-column justify-content-center align-items-center">
+            <a href="#" class="text-decoration-none position-relative">
+                <div class="">
+                    <i class="fas fa-shopping-cart text-size-xl text-dark"></i>
+                </div>
+                <div class="">
+                    <span class="position-absoulut bg-success circle text-white border-small-white text-size-xxs icon-badge shadow-sm">2</span>
+                </div>
+            </a>
+            <div class="d-flex text-uppercase justify-content text-size-xxs ml-6">
+                $1553.3
+            </div>
+            
+        </div>
+
+        <!-- Payment Symbole -->
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <a href="#" class="text-decoration-none position-relative">
+                    <div class="">
+                        <i class="fas fa-file-invoice-dollar text-size-xl text-dark"></i>
+                    </div>
+                    <div class="">
+                        <span class="position-absoulut bg-success circle text-white border-small-white text-size-xxs icon-badge shadow-sm">0</span>
+                    </div>
+                </a>
+                <div class="d-flex text-uppercase justify-content text-size-xxs ml-6">
+                    $0.00
+                </div>
+            </div>
+        </div>
+
+    </section>
+        <hr>
+
+
+
+  </body>
+</html>
