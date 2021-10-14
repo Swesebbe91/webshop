@@ -1,10 +1,13 @@
 /******************
 *** Widths ***
 ******************/
-.max-width {max-width: 192rem;}
+/* .max-width {max-width: 192rem;} */
 .card-width {max-width: 60rem;}
 .width-lg {max-width: 50%;}
 .min-width-xxl {min-width: 100%;}
+.max-width {width: 100%;}
+.nav-width {width: 15%;}
+.side-width {width: 75%;}
 
 
 /*****************
@@ -165,8 +168,21 @@
     background-image: url(../Images/fun-facts/fun-facts-bg-img.jpg);
     background-repeat: no-repeat; background-size: cover; background-position: center;
 }
+/************
+*** Form ***
+*************/
 
 input[type=text] {
     width: 100%;
-    
 }
+
+
+/****************
+*** side-bar ***
+****************/
+.leftbar {
+    float: left;
+    width: 15%;
+    }
+
+
