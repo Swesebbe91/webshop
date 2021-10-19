@@ -1,0 +1,7 @@
+@media only screen and (max-width: 82.18em) {/*1315px / 16px = 68.75em */
+    html {font-size: 50%;}
+}
+
+@media screen and (max-width: 56.25em) {/*900px / 16px = 56.25em */
+    .f-width {max-width: 50% !important; }
+}

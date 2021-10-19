@@ -2,12 +2,13 @@
 *** Widths ***
 ******************/
 /* .max-width {max-width: 192rem;} */
-.card-width {max-width: 60rem;}
+.card-width {max-width: 30%;}
 .width-lg {max-width: 50%;}
 .min-width-xxl {min-width: 100%;}
-.max-width {width: 100%;}
+.max-width {max-width: 192rem;}
 .nav-width {width: 15%;}
-.side-width {width: 75%;}
+.side-width {width: 100%;}
+
 
 
 /*****************
@@ -88,7 +89,7 @@
 *** Typography ****
 ******************/
 .text-decoration-none {text-decoration: none; } /* Använd */
-.text-size-xss{ font-size: var(--display-xxs); }
+.text-size-xxs{ font-size: var(--display-xxs); }
 .text-size-xs { font-size: var(--display-xs); }
 .text-size-sm { font-size: var(--display-sm); }
 .text-size-md { font-size: var(--display-md); }
@@ -130,7 +131,7 @@
 *************/
 .logo-width { max-width: 8rem; } /*använd */
 .logo-height {max-height: 1.5rem;} 
-.img-lg-width {max-width: 60%; }
+.img-width {max-width: 40%; }
 
 /****************
 *** Buttons ***
@@ -138,7 +139,7 @@
 
 .icon-badge {
     top: -15px;
-    right: -15px;
+    right: -10px;
     padding:var(--distance-1) var(--distance-3);
 
 }
@@ -149,6 +150,7 @@
 .border-small-white { border:var(--border-xs-white); }
 .rounded-corners { border-radius:var(--border-radius-sm); } /* använd */ 
 .border-bottom-xs { border-bottom: var(--border-xs); }
+.border-bottom-sm {border-bottom: var(--border-sm);}
 .border-sm { border: var(--border-sm); }
 .border-lg {border: var(--border-lg);}
 .border-transparent {border: var(--border-transparent); }
@@ -185,4 +187,12 @@ input[type=text] {
     width: 15%;
     }
 
+aside > nav > div > a {
+    color: rgb(24, 21, 21);
+    text-decoration: none;
+}
+
+aside > nav > div > a > i {
+    color: rgb(22, 121, 252);
+}
 

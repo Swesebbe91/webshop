@@ -5,6 +5,7 @@
     --color-primary:#a597e7;
     --color-secondary:#6c757d;
     --color-success:#b5d56a;
+    --color-forest: #105303;
     --color-info:#84bed6;
     --color-warning:#f0c24b;
     --color-danger:#ea7066;
@@ -25,7 +26,6 @@
     /*************
     *** Displays***
     *************/
-    --display-xxxs: 0.5rem;
     --display-xxs: 1rem;
     --display-xs: 1.4rem;
     --display-sm: 1.6rem;
@@ -73,7 +73,7 @@
 --border-xs-white: 0.1rem solid var(--color-white);
 --border-xs: .1rem solid var(--color-light);
 --border-sm: .2rem solid var(--color-light);
---border-lg: .4rem solid var(--color-white);
+--border-lg: .4rem solid var(--color-light);
 --border-radius-sm: .25rem;
 --border-success: .2rem solid var(--border-color-success);
 --border-transparent: .1 solid var(--color-transparent);
@@ -134,7 +134,7 @@ html {
 .bg-stop {background-color: var(--color-stop);}
 .bg-facebook {background-color: var(--color-facebook);}
 .bg-twitter {background-color:var(--color-twitter);}
-
+.bg-forest {background-color: var(--color-forest)}
 /******************
 *** Text Colors ***
 ******************/
