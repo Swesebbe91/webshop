@@ -2,12 +2,13 @@
 *** Widths ***
 ******************/
 /* .max-width {max-width: 192rem;} */
-.card-width {max-width: 30%;}
+.card-width{ max-width: 38.5rem}
 .width-lg {max-width: 50%;}
 .min-width-xxl {min-width: 100%;}
 .max-width {max-width: 192rem;}
-.nav-width {width: 15%;}
+.nav-width {max-width:100%}
 .side-width {width: 100%;}
+.minwidth {min-width:120px;}
 
 
 
@@ -195,4 +196,31 @@ aside > nav > div > a {
 aside > nav > div > a > i {
     color: rgb(22, 121, 252);
 }
+
+/***************
+*** Dropdown menu ***
+*********************/
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  display: inline-block;
+}
+
+.display-none {display: none;}
+
+.z-index {z-index: 1;} 
+ 
+/* Dropdown values */
+.dropdown-content a {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+/* Dropdown hover colours */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
 

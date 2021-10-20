@@ -4,4 +4,10 @@
 
 @media screen and (max-width: 56.25em) {/*900px / 16px = 56.25em */
     .f-width {max-width: 50% !important; }
+    .display-sm-none {display: none;} /* NAMN UNDER DROPDOWN MENY FÖRSVINNER */
+}
+
+@media screen and (max-width: 25em) { /*400 pixlar / 16px = 25em */
+    .display-sm-none {display: none;}
+    .sm-display {display: block;}
 }
