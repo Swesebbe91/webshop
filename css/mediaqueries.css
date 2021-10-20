@@ -4,10 +4,36 @@
 
 @media screen and (max-width: 56.25em) {/*900px / 16px = 56.25em */
     .f-width {max-width: 50% !important; }
-    .display-sm-none {display: none;} /* NAMN UNDER DROPDOWN MENY FÖRSVINNER */
+    
 }
 
+
+@media screen and (max-width: 40.5em ) { /*650px / 16px = 40.65em */
+    .display-sm-none {display: none !important;}
+    .flex-order-sm {order: 2;}
+    .sm-display {display: block !important;}
+    .min-with {min-width: 100%;}
+    .flex-wrapper {flex-wrap: wrap;}
+    .mr-sm-4 {margin-right: var(--distance-4);}
+    .ml-sm-0 {margin-left:var(--distance-0);}
+    .float-none {float: none;}
+
+}
+
+
 @media screen and (max-width: 25em) { /*400 pixlar / 16px = 25em */
-    .display-sm-none {display: none;}
-    .sm-display {display: block;}
+    .display-sm-none {display: none !important;}
+    .sm-display {display: block !important;}
+    .d-flex-sm-column {flex-direction: column;}
+    .logo {min-width: 100%;}
+    .flex-order-sm {order: 3;}
+    .mini-with {min-width: 100%}
+    .mb-sm-10 {margin-bottom: var(--distance-10  );}
+    .display-sm-none-dropdwn {display: none;} /* NAMN UNDER DROPDOWN MENY FÖRSVINNER */
+    .float-none {float: none;}
+    .ml-sm-0 {margin-left:var(--distance-0);}
+    .card-width {min-width:  100%;}
+
+    
+    
 }

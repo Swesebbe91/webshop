@@ -20,7 +20,7 @@
       <div class="d-flex flex-grow ">
     <header class="d-flex justify-content-between align-items-end flex-grow bg-dark p-2 text-white">
         <div class="mx-6 dropdown position-relative">
-            <button class="dropbtn bg-dark p-4 border-sm shadow-sm rounded-corners text-white"><i class="fas fa-user"></i><span class="ml-2 display-sm-none">Jon Doe</span>  <i class="fa fa-caret-down"></i></button>
+            <button class="dropbtn bg-dark p-4 border-sm shadow-sm rounded-corners text-white"><i class="fas fa-user"></i><span class="ml-2 display-sm-none-dropdwn">Jon Doe</span>  <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content display-none position-absoulut bg-light min-width shadow-sm minwidth z-index">
                 <div class="ml-6">
                 <a href="#" class=""> Mr Blue</a> 
@@ -35,7 +35,7 @@
       
         
         <!-- Middle of the bar -->
-        <div class="d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center display-sm-none">
             <div>
                 <i class="fas fa-phone mr-2"> </i>
                 <a href="#" class="text-decoration-none text-white mr-6 ">55 555 5555 </a>
@@ -79,18 +79,18 @@
 </div>
 
     <!-- Search header -->
-    <section class="d-flex justify-content-between align-items-center p-8 ">
+    <section class="d-flex justify-content-center align-items-center p-8 d-flex-sm-column flex-wrap ">
     
     <!-- left side of the search header with logo image -->
-        <div class="d-flex justify-content-between align-items-center ">
+        <div class="d-flex justify-content-between align-items-center mb-sm-10 ">
        
-            <img src="../images/logo/logo.png" class="logo-width logo-height" alt="">
+            <img src="../images/logo/logo.png" class="logo-width logo-height mr-sm-4" alt="">
 
         </div>
 
         <!-- The search bar in the middle -->
-        <form class="d-flex flex-grow ">
-        <div class="d-flex flex-grow mx-6 display-sm-none">
+        <form class="d-flex flex-grow flex-order-sm min-with d-flex-sm-column ">
+        <div class="d-flex flex-grow mx-6">
             
             <button type="submit" class="p-2 rounded-corners"><i class="fas fa-search"></i></button>
             <input type="text" placeholder="Search products" class="p-2 rounded-corners">
@@ -98,45 +98,51 @@
         </form>
      
     <!-- Right side of the search bar with three shopping icons -->
-    <div class="d-flex align-items-center mr-4">
+    <div class="d-flex justify-content-center align-items-center mb-sm-10 ">
             
 
         <!-- Hamburger icon -->
-        <div class="d-flex flex-column align-items-center mr-4 d-none sm-display">
+        <div class="br-1 mr-4">
+        <div class="d-flex flex-column align-items-center mr-4 d-none sm-display ">
                 
             
             
             <a href="#" class="text-decoration-none position-relative">
                     <div class="">
-                        <i class="fas fa-bars text-uppercase text-size-xl text-dark "></i>
+                        <i class="fas fa-bars text-size-xl text-dark ml-2"></i>
                     </div>
                 </a>
                 <div class="d-flex text-uppercase justify-content-center text-size-xxs">
-                    home
+                    Menu
                 </div> 
+            </div>
             </div>
         
 
             <!-- Heart symbole -->
-           <div class="d-flex flex-column align-items-center mr-4">
-                
+            <div class="br-1 mr-4">
+           <div class="d-flex flex-column align-items-center mr-6 ">
             
-            
-            <a href="#" class="text-decoration-none position-relative">
+            <a href="#" class="text-decoration-none position-relative ">
                     <div class="">
-                        <i class="fas fa-heart text-size-xl text-dark"></i>
+                        <i class="fas fa-heart text-size-xl text-dark  "></i>
                     </div>
                     <div class="">
-                        <span class="position-absoulut bg-success circle text-white border-small-white text-size-xxs icon-badge shadow-sm">3</span>
+                        <span class="position-absoulut bg-success circle text-white border-small-white text-size-xxs icon-badge shadow-sm ">3</span>
                     </div>
                 </a>
-                <div class="d-flex text-uppercase justify-content-center text-size-xxs">
+                <div class="d-flex text-uppercase justify-content-center text-size-xxs ">
                     Favs
-                </div> 
-            </div>
+                    </div>
+            </div> 
+        </div>
+           
+            
+
 
            <!-- Cart symbole -->
-           <div class="d-flex flex-column justify-content-center align-items-center mr-4">
+           <div class="br-1 mr-4">
+           <div class="d-flex flex-column justify-content-center align-items-center mr-6">
             <a href="#" class="text-decoration-none position-relative">
                 <div class="">
                     <i class="fas fa-shopping-cart text-size-xl text-dark"></i>
@@ -148,7 +154,7 @@
             <div class="d-flex text-uppercase justify-content text-size-xxs">
                 $1553.3
             </div>
-            
+        </div>
         </div>
 
         <!-- Payment Symbole -->
@@ -168,12 +174,12 @@
         </div>
 
     </section>
-        <hr class="mb-6">
+        <hr class="mb-6 display-sm-none">
     
         <!-- Aside navbar -->
-    <div class="max-width">
+    <div class="side-width ">
       <aside class="">
-        <nav class="leftbar d-flex flex-column flex-grow ml-4 border-sm">
+        <nav class="leftbar d-flex  flex-column  ml-4 border-sm float-none min-with ml-sm-0">
             
             <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
                 <a href="" class=""><i class="far fa-hdd"></i>
@@ -251,10 +257,10 @@
       <section>
             
             <!-- Class card -->
-            <div class="d-flex flex-wrap mx-12">
+            <div class="d-flex flex-wrap mx-12 ml-sm-0">
                 
                 <!--first product-->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6">
+                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 ">
                     <img src="../images/products/SurfaceBook.jpg" class="img-width" alt="Picture of a surfface book">
                     <div class="d-flex flex-column flex-grow mx-4 my-2">
                 

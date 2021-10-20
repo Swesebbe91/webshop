@@ -10,7 +10,9 @@
 .side-width {width: 100%;}
 .minwidth {min-width:120px;}
 
-
+.br-1 {
+    border-right: 1px solid rgba(128, 128, 128, 0.329); 
+}
 
 /*****************
 *** Positions ***
@@ -215,7 +217,6 @@ aside > nav > div > a > i {
   padding: 5px;
   text-decoration: none;
   display: block;
-  
 }
 
 /* Dropdown hover colours */

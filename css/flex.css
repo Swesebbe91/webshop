@@ -7,12 +7,13 @@
 /******************
 *** Flex ********
 **********************/
-
+.no-flex-shrink {flex-shrink: 0;}
 .flex-grow { flex-grow: 1;}
 .flex-column { flex-direction: column;}
 .flex-row { flex-direction: row;}
 .flex-row-reverse { flex-direction: row-reverse;}
 .flex-wrap {flex-wrap: wrap;}
+
 
 
 
