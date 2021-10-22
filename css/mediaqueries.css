@@ -1,10 +1,25 @@
-@media only screen and (max-width: 82.18em) {/*1315px / 16px = 68.75em */
-    html {font-size: 50%;}
+/*@media only screen and (max-width: 82.18em) {/*1315px / 16px = 68.75em */
+   /* html {font-size: 50%;}
+}*/
+
+@media screen and (max-width: 65.5em) {/*1100px / 16 = 65.5em */
+    .div-sticky {
+        position: sticky;
+        top:0;
+        min-width: 100%;
+        z-index: 2
+
+    }
+    
 }
 
 @media screen and (max-width: 56.25em) {/*900px / 16px = 56.25em */
-    .f-width {max-width: 50% !important; }
-    
+    .d-flex-sm-column-nav {flex-direction: column;}
+    .card-width {min-width:  100%;}
+    .ml-sm-0 {margin-left:var(--distance-0);}
+    .div-no-sticky {
+        position: relative;
+    }
 }
 
 
@@ -15,9 +30,9 @@
     .min-with {min-width: 100%;}
     .flex-wrapper {flex-wrap: wrap;}
     .mr-sm-4 {margin-right: var(--distance-4);}
-    .ml-sm-0 {margin-left:var(--distance-0);}
-    .float-none {float: none;}
-
+    .mb-sm-4 {margin-bottom: var(--distance-4);}
+    .mb-sm-10 {margin-bottom: var(--distance-10  );}
+    
 }
 
 
@@ -28,12 +43,11 @@
     .logo {min-width: 100%;}
     .flex-order-sm {order: 3;}
     .mini-with {min-width: 100%}
-    .mb-sm-10 {margin-bottom: var(--distance-10  );}
+    .d-flex-sm-column-products {flex-direction: column;}
     .display-sm-none-dropdwn {display: none;} /* NAMN UNDER DROPDOWN MENY FÖRSVINNER */
-    .float-none {float: none;}
+    .mb-sm-0 {margin-bottom: var(--distance-0);}
     .ml-sm-0 {margin-left:var(--distance-0);}
-    .card-width {min-width:  100%;}
-
-    
+    .card-width {min-width:  100%;
+    }
     
 }

@@ -16,12 +16,12 @@
   </head>
 
   <body>
-      
-      <div class="d-flex flex-grow ">
+        <div class="div-sticky div-no-sticky">
+      <div class="d-flex flex-grow">
     <header class="d-flex justify-content-between align-items-end flex-grow bg-dark p-2 text-white">
         <div class="mx-6 dropdown position-relative">
-            <button class="dropbtn bg-dark p-4 border-sm shadow-sm rounded-corners text-white"><i class="fas fa-user"></i><span class="ml-2 display-sm-none-dropdwn">Jon Doe</span>  <i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-content display-none position-absoulut bg-light min-width shadow-sm minwidth z-index">
+            <button class="dropbtn bg-dark p-4 border-sm shadow-sm rounded-corners text-white"><i class="fas fa-user"></i><span class="ml-2 display-sm-none-dropdwn">Jone Doe</span>  <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content display-none position-absoulut bg-light width-dropdown shadow-sm minwidth z-index">
                 <div class="ml-6">
                 <a href="#" class=""> Mr Blue</a> 
                 <a href="#">Mr Green</a>
@@ -79,12 +79,12 @@
 </div>
 
     <!-- Search header -->
-    <section class="d-flex justify-content-center align-items-center p-8 d-flex-sm-column flex-wrap ">
+    <section class="d-flex justify-content-center align-items-center p-8 d-flex-sm-column flex-wrap bg-white ">
     
     <!-- left side of the search header with logo image -->
-        <div class="d-flex justify-content-between align-items-center mb-sm-10 ">
+        <div class="d-flex justify-content-between align-items-center ">
        
-            <img src="../images/logo/logo.png" class="logo-width logo-height mr-sm-4" alt="">
+            <img src="../images/logo/logo.png" class="logo-width logo-height mr-sm-4 mb-sm-10" alt="">
 
         </div>
 
@@ -93,12 +93,12 @@
         <div class="d-flex flex-grow mx-6">
             
             <button type="submit" class="p-2 rounded-corners"><i class="fas fa-search"></i></button>
-            <input type="text" placeholder="Search products" class="p-2 rounded-corners">
+            <input type="text" placeholder="Search products" class="p-2 rounded-corners ">
             </div>
         </form>
      
     <!-- Right side of the search bar with three shopping icons -->
-    <div class="d-flex justify-content-center align-items-center mb-sm-10 ">
+    <div class="d-flex justify-content-center align-items-center mb-sm-2 mb-sm-4 flex-start">
             
 
         <!-- Hamburger icon -->
@@ -174,12 +174,13 @@
         </div>
 
     </section>
-        <hr class="mb-6 display-sm-none">
-    
+</div>
+        <hr class="mb-6 display-sm-none ">
+      
         <!-- Aside navbar -->
-    <div class="side-width ">
-      <aside class="">
-        <nav class="leftbar d-flex  flex-column  ml-4 border-sm float-none min-with ml-sm-0">
+      <div class="d-flex border-sm min-with ml-sm-0 d-flex-sm-column-nav">
+      <aside class=" d-flex flex-column no-flex-shrink  ">
+        <nav class="">
             
             <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
                 <a href="" class=""><i class="far fa-hdd"></i>
@@ -260,7 +261,7 @@
             <div class="d-flex flex-wrap mx-12 ml-sm-0">
                 
                 <!--first product-->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 ">
+                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products">
                     <img src="../images/products/SurfaceBook.jpg" class="img-width" alt="Picture of a surfface book">
                     <div class="d-flex flex-column flex-grow mx-4 my-2">
                 
@@ -284,15 +285,15 @@
                 </div>
 
                 <!-- Second product -->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 ">
+                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 position-relative d-flex-sm-column-products">
                     <img src="../images/products/11.jpg" class="img-width" alt="Picture of a surfface book">
                     <div class="position-absoulut bg-forest text-white text-size-xxs p-2">
                         10% Off
 
                     </div>
-                    <div class="d-flex flex-column flex-grow mx-4 my-2">
+                    <div class="d-flex flex-column flex-grow mx-4 my-2 ">
                 
-                        <div class="d-flex justify-content-between align-items-center position-relative">
+                        <div class="d-flex justify-content-between align-items-center ">
                             <h3>Samsung S10.</h3>
                             <a href="#"><i class="far fa-heart text-dark"></i></a>
                         </div>  
@@ -312,7 +313,7 @@
                 </div>
 
                 <!-- Third product -->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 ">
+                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products">
                     <img src="../images/products/MSMouse.jpg" class="img-width" alt="Picture of a surfface book">
                     <div class="d-flex flex-column flex-grow mx-4 my-2">
                 
@@ -336,7 +337,7 @@
                 </div>
 
                 <!-- fourth product -->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 ">
+                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products">
                     <img src="../images/products/headphones.jpg" class="img-width" alt="Picture of a surfface book">
                     <div class="d-flex flex-column flex-grow mx-4 my-2">
                 
@@ -360,7 +361,7 @@
                 </div>
 
                 <!-- fifth card-->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 ">
+                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products">
                     <img src="../images/products/iMac.jpg" class="img-width" alt="Picture of a surfface book">
                     <div class="d-flex flex-column flex-grow mx-4 my-2">
                 
@@ -388,9 +389,8 @@
 
       </section>
 
- 
+    </div>
       
 
-    </div>
   </body>
 </html>

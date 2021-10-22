@@ -3,16 +3,10 @@
 ******************/
 /* .max-width {max-width: 192rem;} */
 .card-width{ max-width: 38.5rem}
-.width-lg {max-width: 50%;}
-.min-width-xxl {min-width: 100%;}
 .max-width {max-width: 192rem;}
-.nav-width {max-width:100%}
-.side-width {width: 100%;}
-.minwidth {min-width:120px;}
+.width-dropdown {min-width:120px;}
 
-.br-1 {
-    border-right: 1px solid rgba(128, 128, 128, 0.329); 
-}
+
 
 /*****************
 *** Positions ***
@@ -157,7 +151,7 @@
 .border-sm { border: var(--border-sm); }
 .border-lg {border: var(--border-lg);}
 .border-transparent {border: var(--border-transparent); }
-
+.br-1 { border-right: 1px solid rgba(128, 128, 128, 0.329);}
 
 /************
 *** Icon ***
@@ -185,10 +179,7 @@ input[type=text] {
 /****************
 *** side-bar ***
 ****************/
-.leftbar {
-    float: left;
-    width: 15%;
-    }
+
 
 aside > nav > div > a {
     color: rgb(24, 21, 21);
