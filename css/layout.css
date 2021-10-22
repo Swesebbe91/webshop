@@ -2,11 +2,9 @@
 *** Widths ***
 ******************/
 /* .max-width {max-width: 192rem;} */
-.card-width{ max-width: 38.5rem}
+.card-width{ max-width: 36rem}
 .max-width {max-width: 192rem;}
 .width-dropdown {min-width:120px;}
-
-
 
 /*****************
 *** Positions ***
@@ -30,6 +28,7 @@
 .m-16 {margin: var(--distance-16); }
 
 /*** Top / Bottom ***/
+.mt--2 {margin-top:var(--distance--2)}
 .mt-0, .my-0 { margin-top: var(--distance-0); } /* 0rem */
 .mb-0, .my-0 { margin-bottom: var(--distance-0); }
 .mt-1, .my-1 { margin-top: var(--distance-1) } /*.25rem*/

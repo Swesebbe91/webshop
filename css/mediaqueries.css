@@ -2,7 +2,7 @@
    /* html {font-size: 50%;}
 }*/
 
-@media screen and (max-width: 65.5em) {/*1100px / 16 = 65.5em */
+@media screen and (max-width: 68.75em) {/*1100px / 16 = 65.5em */
     .div-sticky {
         position: sticky;
         top:0;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 56.25em) {/*900px / 16px = 56.25em */
     .d-flex-sm-column-nav {flex-direction: column;}
-    .card-width {min-width:  100%;}
+    
     .ml-sm-0 {margin-left:var(--distance-0);}
     .div-no-sticky {
         position: relative;
