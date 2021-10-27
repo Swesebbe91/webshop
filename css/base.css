@@ -21,6 +21,7 @@
     --color-facebook: #4267B2;
     --color-twitter: #1DA1F2;
     --color-dark-transparent:rgba(0, 0, 0, 0.2);
+    --color-children: #E1F8DC;
     
 
     /*************
@@ -104,6 +105,7 @@ html {
      color: var(--color-dark);
      font-size: var(--display-sm);
      min-height: 100vh;
+     background-color: var(--color-children);
  }
 
 .h1, h2, h3, h4, h5, h6 {
@@ -136,6 +138,7 @@ html {
 .bg-facebook {background-color: var(--color-facebook);}
 .bg-twitter {background-color:var(--color-twitter);}
 .bg-forest {background-color: var(--color-forest)}
+.bg-children {background-color: var(--color-children);}
 /******************
 *** Text Colors ***
 ******************/

@@ -16,9 +16,10 @@
   </head>
 
   <body>
+      <!-- Left side of the bar --> 
         <div class="div-sticky div-no-sticky">
-      <div class="d-flex flex-grow ">
-    <header class="d-flex justify-content-between align-items-end flex-grow bg-dark p-2 text-white">
+      <div class="d-flex flex-grow no-flex-shrink">
+    <header class="d-flex justify-content-between align-items-end flex-grow bg-image p-2 text-white">
         <div class="mx-6 dropdown position-relative">
             <button class="dropbtn bg-dark p-2 border-sm shadow-sm rounded-corners text-white"><i class="fas fa-user"></i><span class="ml-2 display-sm-none-dropdwn">Jone Doe</span>  <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content display-none position-absoulut bg-light width-dropdown shadow-sm minwidth z-index">
@@ -28,48 +29,45 @@
                 <a href="#">Mr Purple</a>
             </div>
               </div>
-            </div>
-        
-            <!-- Left side of the bar --> 
-           
-      
+            </div>     
         
         <!-- Middle of the bar -->
         <div class="d-flex justify-content-center align-items-center display-sm-none">
             <div>
-                <i class="fas fa-phone mr-2"> </i>
+                <i class="fas fa-phone mr-2 telephone"> </i>
                 <a href="#" class="text-decoration-none text-white mr-6 ">55 555 5555 </a>
                 </div>
                 
             <div>
-                <i class="fas fa-envelope mr-2"></i>
+                <i class="fas fa-envelope mr-2 mail"></i>
                 <a href="mailto:bassepersson@hotmail.com " class="text-decoration-none text-white">sebbeswebshop@shop.se</a>
             </div> 
         </div> 
         
         <!-- Right side of the bar -->
-        <div class="d-flex justify-content-center align-items-center mr-6">
+        <div class="d-flex justify-content-center mr-6">
+            
             <div class=" bg-facebook rounded-corners mr-2">
                 <a href="#" class="text-white">
                 <i class="fab fa-facebook-f p-2 text-size-md"></i>
                 </a>
-            </div>
+            </div>    
         
             <div class=" bg-white rounded-corners mr-2">
                 <a href="#" class="text-twitter">
-                <i class="fab fa-twitter p-2 text-size-"></i>
+                <i class="fab fa-twitter p-2 text-size-md"></i>
                 </a>
             </div>
         
             <div class=" bg-white rounded-corners mr-2">
                 <a  href="#" class="">
-                <i class="fab fa-instagram p-2"></i>
+                <i class="fab fa-instagram p-2 text-size-md "></i>
                 </a>
             </div>
             
-            <div class="bg-white rounded-corners bg-stop mr-2">
+            <div class="bg-white rounded-corners bg-stop">
             <a href="#" class="text-white">
-            <i class="fab fa-pinterest-p p-2"></i>
+            <i class="fab fa-pinterest-p p-2 text-size-md"></i>
             
             </a>
             </div>
@@ -79,7 +77,7 @@
 </div>
 
     <!-- Search header -->
-    <section class="d-flex justify-content-center align-items-center p-8 d-flex-sm-column flex-wrap bg-white ">
+    <section class="d-flex justify-content-center align-items-center p-8 p-4-sm  d-flex-sm-column flex-wrap bg-white ">
     
     <!-- left side of the search header with logo image -->
         <div class="d-flex justify-content-between align-items-center ">
@@ -90,7 +88,7 @@
 
         <!-- The search bar in the middle -->
         <form class="d-flex flex-grow flex-order-sm search-width d-flex-sm-column ">
-        <div class="d-flex flex-grow mx-6">
+        <div class="d-flex flex-grow mx-6 mx-auto">
             
             <button type="submit" class="p-2 rounded-corners"><i class="fas fa-search"></i></button>
             <input type="text" placeholder="Search products" class="p-2 rounded-corners ">
@@ -99,7 +97,6 @@
      
     <!-- Right side of the search bar with three shopping icons -->
     <div class="d-flex justify-content-center align-items-center mb-sm-2 mb-sm-4 flex-start">
-            
 
         <!-- Hamburger icon -->
         <div class="br-1 mr-4">
@@ -125,7 +122,7 @@
             
             <a href="#" class="text-decoration-none position-relative ">
                     <div class="">
-                        <i class="fas fa-heart text-size-xl text-dark  "></i>
+                        <i class="fas fa-heart text-size-xl text-dark heart "></i>
                     </div>
                     <div class="">
                         <span class="position-absoulut bg-success circle text-white border-small-white text-size-xxs icon-badge shadow-sm ">3</span>
@@ -145,7 +142,7 @@
            <div class="d-flex flex-column justify-content-center align-items-center mr-6">
             <a href="#" class="text-decoration-none position-relative">
                 <div class="">
-                    <i class="fas fa-shopping-cart text-size-xl text-dark"></i>
+                    <i class="fas fa-shopping-cart text-size-xl text-dark cart"></i>
                 </div>
                 <div class="">
                     <span class="position-absoulut bg-success circle text-white border-small-white text-size-xxs icon-badge shadow-sm">2</span>
@@ -161,7 +158,7 @@
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <a href="#" class="text-decoration-none position-relative">
                     <div class="">
-                        <i class="fas fa-file-invoice-dollar text-size-xl text-dark"></i>
+                        <i class="fas fa-file-invoice-dollar text-size-xl text-dark invoice"></i>
                     </div>
                     <div class="">
                         <span class="position-absoulut bg-success circle text-white border-small-white text-size-xxs icon-badge shadow-sm">0</span>
@@ -179,80 +176,78 @@
       
         <!-- Aside navbar -->
       <div class="d-flex d-flex-sm-column-nav ">
-      <aside class=" d-flex flex-column no-flex-shrink border-sm ml-4">
+      <aside class=" d-flex flex-column no-flex-shrink border-sm ml-4 ">
         <nav class="">
             
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs font-size-sm shadow-sm ml-1">
                 <a href="" class=""><i class="far fa-hdd"></i>
-                <span class=" ml-2"> Computers & Accessories </span>
+                <span class=" ml-2 "> Computers & Accessories </span>
             </a>
             </div>
             
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
                 <a href=""><i class="fas fa-tv"></i>
                 <span class=" ml-2"> TV, Video  & Audio </span>
             </a>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
                 <a href=""><i class="fas fa-tablet-alt"></i>
                 <span class=" ml-2"> Smartphones & Tablets </span>
             </a>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
                 <a href=""><i class="fas fa-camera-retro"></i>
                 <span class=" ml-2"> Photo Cameras </span>
             </a>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
-                <a href=""><i class="fas fa-video"></i>
-                <span class=" ml-2"> Video Cameras </span>
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
+                <a href=""><i class="fas fa-video rotate"></i>
+                <span class=" ml-2 "> Video Cameras </span>
             </a>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
                 <a href=""><i class="fas fa-headphones"></i>
                 <span class=" ml-2"> Headphones </span>
             </a>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
                 <a href=""><i class="fas fa-clock"></i>
                 <span class=" ml-2"> Wearable Electronics  </span>
             </a>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
                 <a href=""><i class="fas fa-images"></i>
                 <span class=" ml-2"> Printers & Ink </span>
             </a>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
                 <a href=""><i class="fas fa-crosshairs"></i>
                 <span class=" ml-2"> Video Games </span>
             </a>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
-                <a href=""><i class="fas fa-volume-down"></i>
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
+                <a href=""><i class="fas fa-volume-down rotate"></i>
                 <span class=" ml-2"> Speakers & Home Music </span>
             </a>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1">
+            <div class="d-flex justify-content-start align-items-center border-bottom-sm p-2 text-size-xs shadow-sm ml-1 font-size-sm">
                 <a href="" class="text-decoration-none"><i class="fas fa-server"></i>
                 <span class=" ml-2"> HDD / SSD Data Storage </span>
             </a>
             </div>
         
         </nav>
-      </aside>
-     
-     
+      </aside>     
 
      <!-- Middle section with prodouct cards--> 
       <section>
@@ -261,13 +256,13 @@
             <div class="d-flex flex-wrap mt--2 justify-content-center-sm mt-sm-1  ">
                 
                 <!--first product-->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products">
-                    <img src="../images/products/SurfaceBook.jpg" class="img-width " alt="Picture of a surfface book">
+                <div class="d-flex overflow-hidden card-width border-sm shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products zoom ">
+                    <img src="../images/products/SurfaceBook.jpg " class="img-width rounded-corners " alt="Picture of a surface book">
                     <div class="d-flex flex-column flex-grow mx-4 my-2">
                 
                         <div class="d-flex justify-content-between align-items-center">
                             <h3>Surface book 14 in.</h3>
-                            <a href="#"><i class="far fa-heart text-dark"></i></a>
+                            <a href="#"><i class="far fa-heart text-dark heart"></i></a>
                         </div>  
                     
                         <p class="text-secondary text-size-xs">Computers & Accessories</p>
@@ -278,24 +273,23 @@
                         </div>
             
                         <div class="d-flex justify-content-between align-items-center">
-                            <a href="#"><i class="fas fa-cart-plus text-dark"></i></a>
-                            <p>4.5 <i class="far fa-star"></i> </p>
+                            <a href="#"><i class="fas fa-cart-plus text-dark cart"></i></a>
+                            <p>4.5 <i class="far fa-star text-gold"></i> </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Second product -->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 position-relative d-flex-sm-column-products">
-                    <img src="../images/products/11.jpg" class="img-width" alt="Picture of a surfface book">
-                    <div class="position-absoulut bg-forest text-white text-size-xxs p-2 discount">
+                <div class="d-flex overflow-hidden card-width border-sm shadow-sm rounded-corners m-6 mb-sm-0 position-relative d-flex-sm-column-products zoom">
+                    <img src="../images/products/11.jpg" class="img-width" alt="Picture of a surface book">
+                    <div class="position-absoulut bg-forest text-white text-size-xxs p-2 discount ">
                         <span>10% Off</span> 
-
                     </div>
                     <div class="d-flex flex-column flex-grow mx-4 my-2 ">
                 
                         <div class="d-flex justify-content-between align-items-center ">
-                            <h3>Samsung S10.</h3>
-                            <a href="#"><i class="far fa-heart text-dark"></i></a>
+                            <h3 >Samsung S10.</h3>
+                            <a href="#"><i class="far fa-heart text-dark heart"></i></a>
                         </div>  
                     
                         <p class="text-secondary text-size-xs">TV, Video, Audio</p>
@@ -306,20 +300,20 @@
                         </div>
             
                         <div class="d-flex justify-content-between align-items-center">
-                            <a href="#"><i class="fas fa-cart-plus text-dark"></i></a>
-                            <p>3 <i class="far fa-star"></i> </p>
+                            <a href="#"><i class="fas fa-cart-plus text-dark cart"></i></a>
+                            <p>3 <i class="far fa-star text-gold"></i> </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Third product -->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products">
-                    <img src="../images/products/MSMouse.jpg" class="img-width" alt="Picture of a surfface book">
+                <div class="d-flex overflow-hidden card-width border-sm shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products zoom">
+                    <img src="../images/products/MSMouse.jpg" class="img-width" alt="Picture of a gaming mouse">
                     <div class="d-flex flex-column flex-grow mx-4 my-2">
                 
                         <div class="d-flex justify-content-between align-items-center">
                             <h3>Game controller</h3>
-                            <a href="#"><i class="far fa-heart text-dark"></i></a>
+                            <a href="#"><i class="far fa-heart text-dark heart"></i></a>
                         </div>  
                     
                         <p class="text-secondary text-size-xs">Game Accessories</p>
@@ -330,20 +324,20 @@
                         </div>
             
                         <div class="d-flex justify-content-between align-items-center">
-                            <a href="#"><i class="fas fa-cart-plus text-dark"></i></a>
-                            <p>4 <i class="far fa-star"></i> </p>
+                            <a href="#"><i class="fas fa-cart-plus text-dark cart"></i></a>
+                            <p>4 <i class="far fa-star text-gold"></i> </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- fourth product -->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products">
-                    <img src="../images/products/headphones.jpg" class="img-width" alt="Picture of a surfface book">
+                <div class="d-flex overflow-hidden card-width border-sm shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products zoom">
+                    <img src="../images/products/headphones.jpg" class="img-width" alt="Picture of headphones">
                     <div class="d-flex flex-column flex-grow mx-4 my-2">
                 
                         <div class="d-flex justify-content-between align-items-center ">
                             <h3>Headphones</h3>
-                            <a href="#"><i class="far fa-heart text-dark"></i></a>
+                            <a href="#"><i class="far fa-heart text-dark heart"></i></a>
                         </div>  
                     
                         <p class="text-secondary text-size-xs">Headphones & music </p>
@@ -354,20 +348,20 @@
                         </div>
 
                         <div class="d-flex justify-content-between align-items-center">
-                            <a href="#"><i class="fas fa-cart-plus text-dark"></i></a>
-                            <p>3.5 <i class="far fa-star"></i> </p>
+                            <a href="#"><i class="fas fa-cart-plus text-dark cart"></i></a>
+                            <p>3.5 <i class="far fa-star text-gold"></i> </p>
                         </div>
                     </div>
                 </div>
 
                 <!-- fifth card-->
-                <div class="d-flex overflow-hidden card-width border-lg shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products">
-                    <img src="../images/products/iMac.jpg" class="img-width" alt="Picture of a surfface book">
+                <div class="d-flex overflow-hidden card-width border-sm shadow-sm rounded-corners m-6 mb-sm-0 d-flex-sm-column-products zoom">
+                    <img src="../images/products/iMac.jpg" class="img-width" alt="Picture of a I mac">
                     <div class="d-flex flex-column flex-grow mx-4 my-2">
                 
                         <div class="d-flex justify-content-between align-items-center">
                             <h3>iMAC 18 in.</h3>
-                            <a href="#"><i class="fas fa-heart text-dark"></i></a>
+                            <a href="#"><i class="fas fa-heart text-dark heart"></i></a>
                         </div>
                     
                         <p class="text-secondary text-size-xs">Computers & Accessories</p>
@@ -378,8 +372,8 @@
                         </div>
             
                         <div class="d-flex justify-content-between align-items-center">
-                            <a href="#"><i class="fas fa-cart-plus text-dark"></i></a>
-                            <p>3 <i class="far fa-star"></i></p>
+                            <a href="#"><i class="fas fa-cart-plus cart text-dark"></i></a>
+                            <p>3 <i class="far fa-star text-gold"></i></p>
                         </div>
                     </div>
                 </div>
@@ -390,7 +384,6 @@
       </section>
 
     </div>
-      
 
   </body>
 </html>
