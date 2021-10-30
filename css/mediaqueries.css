@@ -28,7 +28,8 @@
     .mt-sm-1 {margin-top: var(--distance-1)}
     .img-width {max-width: 30%;}
     .mx-auto {margin: 0px;}
-    .font-size-sm {font-size: 120%;}   
+    .font-size-sm {font-size: 120%;}
+    .zoom:hover {transform: scale(0);}  
 }
 
 @media screen and (max-width: 25em) { /*400 pixlar / 16px = 25em */
